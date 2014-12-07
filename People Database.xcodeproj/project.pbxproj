@@ -10,6 +10,7 @@
 		2E5A29B918480C2E00EBCA2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5A29B818480C2E00EBCA2E /* Foundation.framework */; };
 		2E5A29BC18480C2E00EBCA2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5A29BB18480C2E00EBCA2E /* main.m */; };
 		2E5A29C018480C2E00EBCA2E /* People_Database.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E5A29BF18480C2E00EBCA2E /* People_Database.1 */; };
+		2E96F73C18496176007097EF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E96F73B18496176007097EF /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		2E5A29BB18480C2E00EBCA2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E5A29BE18480C2E00EBCA2E /* People Database-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "People Database-Prefix.pch"; sourceTree = "<group>"; };
 		2E5A29BF18480C2E00EBCA2E /* People_Database.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = People_Database.1; sourceTree = "<group>"; };
+		2E96F73A18496176007097EF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2E96F73B18496176007097EF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				2E5A29BB18480C2E00EBCA2E /* main.m */,
+				2E96F73A18496176007097EF /* Person.h */,
+				2E96F73B18496176007097EF /* Person.m */,
 				2E5A29BF18480C2E00EBCA2E /* People_Database.1 */,
 				2E5A29BD18480C2E00EBCA2E /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E96F73C18496176007097EF /* Person.m in Sources */,
 				2E5A29BC18480C2E00EBCA2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 				2E5A29C518480C2E00EBCA2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
